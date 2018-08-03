@@ -1,6 +1,6 @@
 #include ../benchmark.ahk
 
-reps := 10000
+reps := 100000
 DllCall( "QueryPerformanceFrequency", "Int64*", ticksPerSec)
 
 ; \/ \/ \/ \/ Set pre-run data \/ \/ \/ \/
